@@ -1,5 +1,6 @@
 package com.example.firebasechatting
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -35,6 +36,11 @@ class LoginActivity : AppCompatActivity() {
                         Log.d(TAG, "로그인 성공")
                         Toast.makeText(baseContext, "로그인 성공",
                             Toast.LENGTH_SHORT).show()
+
+                        // 로그인 성공 시 채팅 화면으로 이동.
+                        val intent = Intent( this, ChatlistActivity::class.java )
+                        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                        startActivity(intent)
 
                     } else {
                         // If sign in fails, display a message to the user.
