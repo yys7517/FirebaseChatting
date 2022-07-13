@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413618400275",
+    "project_id": "chattingex-7ccf9",
+    "storage_bucket": "chattingex-7ccf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413618400275:android:66b261ff3ca89a9791a3e6",
+        "android_client_info": {
+          "package_name": "com.example.firebasechatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413618400275-nc9q45ts9cqnsro745pn1kd4ifi2fcgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSVXA8rN2TL2MJbiDcnH_GYvLOwJegWRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413618400275-nc9q45ts9cqnsro745pn1kd4ifi2fcgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
