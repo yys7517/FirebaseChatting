@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/yys75/ASProjects/FirebaseChatting/app/src/main/res/layout/activity_join.xml" value="0.33" />
+        <entry key="..\:/Users/yys75/ASProjects/FirebaseChatting/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/yys75/ASProjects/FirebaseChatting/app/src/main/res/layout/activity_main.xml" value="0.37552083333333336" />
       </map>
     </option>
